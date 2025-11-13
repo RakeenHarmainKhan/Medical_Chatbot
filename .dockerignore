@@ -1,0 +1,94 @@
+# Prevent secrets from entering Docker image
+.env
+.envrc
+*.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pypackages__/
+*$py.class
+
+# Byte-compiled and optimized files
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+ share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.spec
+
+# Logs
+*.log
+
+# Test, coverage, cache
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+.tox/
+.nox/
+
+# SQLite / local DB files
+db.sqlite3
+db.sqlite3-journal
+
+# User / editor configs
+*.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.pycharm/
+.DS_Store
+
+# Temporary directories
+tmp/
+temp/
+cache/
+
+# Jupyter + checkpoints
+.ipynb_checkpoints/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Cython debug
+cython_debug/
+
+# Node_modules (if frontend exists)
+node_modules/
+
+# Git itself (never needed inside Docker)
+.git
+.gitignore
+
+# Docker files not needed inside the build context
+docker-compose.yml
+
+# Prevent accidental large data uploads
+data/
+datasets/
+uploads/
+models/
