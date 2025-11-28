@@ -1,4 +1,4 @@
-# Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS
+# Medical Chatbot Using LangChain
 
 # How to run?
 ### STEPS:
@@ -56,4 +56,8 @@ open up localhost:
 - Flask
 - GPT
 - Pinecone
+
+<img width="956" height="579" alt="Screenshot 2025-11-19 184207" src="https://github.com/user-attachments/assets/feef4f5c-70b1-4ec2-aa96-6bbdfe2dce38" />
+<img width="961" height="580" alt="Screenshot 2025-11-19 184120" src="https://github.com/user-attachments/assets/d394289a-7b57-4dd8-846c-39ee8b101de8" />
+
 
